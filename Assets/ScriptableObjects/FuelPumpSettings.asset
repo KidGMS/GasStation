@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c65048800d64b8298900c11fa370d08, type: 3}
+  m_Name: FuelPumpSettings
+  m_EditorClassIdentifier: 
+  MaxLevel: 3
+  DefaultPrice: 2
+  LevelUpgrades:
+  - Level: 1
+    MaxFuelCapacity: 200
+    RefuelSpeed: 2
+    FuelRestockSpeed: 5
+    MaxQueueSize: 2
+  - Level: 2
+    MaxFuelCapacity: 500
+    RefuelSpeed: 4
+    FuelRestockSpeed: 10
+    MaxQueueSize: 3
+  - Level: 3
+    MaxFuelCapacity: 1000
+    RefuelSpeed: 8
+    FuelRestockSpeed: 20
+    MaxQueueSize: 4
